@@ -12,13 +12,3 @@ variable "flag" {
   type = bool
   default = false
 }
-
-variable "meshStack_BB_id" {
-  type = string
-  default = ""
-}
-
-variable "meshStack_BB_run_id" {
-  type = string
-  default = ""
-}
