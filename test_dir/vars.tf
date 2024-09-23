@@ -1,6 +1,6 @@
 variable "num" {
   type = number
-  default = 0
+  default = 45645646
 }
 
 variable "text" {
