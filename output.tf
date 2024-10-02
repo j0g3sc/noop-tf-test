@@ -10,3 +10,10 @@ output "text" {
 output "flag" {
   value = var.flag
 }
+
+output "obj" {
+  value = {
+    name = "test"
+    key  = "obj"
+  }
+}
