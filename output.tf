@@ -13,5 +13,4 @@ output "flag" {
 
 output "setex" {
   value = ["value1", "value2", "value3"]
-  type  = set(string)
 }
