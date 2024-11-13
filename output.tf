@@ -10,3 +10,7 @@ output "text" {
 output "flag" {
   value = var.flag
 }
+
+output "setex" {
+  value = ["foo", "bar"]
+}
