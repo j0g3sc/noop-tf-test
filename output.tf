@@ -12,5 +12,5 @@ output "flag" {
 }
 
 output "setex" {
-  value = ["foo", "bar", 1, true]
+  value = [{"foo", "bar"}, 1, true, "foo", {}]
 }
