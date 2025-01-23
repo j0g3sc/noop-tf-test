@@ -10,3 +10,10 @@ output "text" {
 output "flag" {
   value = var.flag
 }
+
+output "rgtags" {
+  value = tomap({
+    "env" = "env"
+    "other" = "other"
+  })
+}
