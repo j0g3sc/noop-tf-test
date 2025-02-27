@@ -1,7 +1,7 @@
 terraform {
 	backend "http" {
-		address = ""
-		username = ""
-		password = ""
+		address = "http://localhost:8080/api/doesnotwork"
+		username = "test"
+		password = "test"
 	}
 }
