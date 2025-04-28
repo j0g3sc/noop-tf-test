@@ -11,6 +11,10 @@ output "flag" {
   value = var.flag
 }
 
+output "obj" {
+  value = var.obj
+}
+
 output "setex" {
   value = ["value1", "value2", "value3"]
 }
