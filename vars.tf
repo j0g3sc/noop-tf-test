@@ -14,8 +14,8 @@ variable "flag" {
 }
 
 variable "obj" {
-  type = object({foo = string})
-  default = {foo = "foo"}
+  type = object({test = string})
+  default = {test = "foo"}
 }
 
 variable "li" {
