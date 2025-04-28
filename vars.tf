@@ -12,3 +12,13 @@ variable "flag" {
   type = bool
   default = false
 }
+
+variable "obj" {
+  type = object
+  default = {}
+}
+
+variable "li" {
+  type = list
+  default = []
+}
