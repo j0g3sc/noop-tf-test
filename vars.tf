@@ -22,3 +22,15 @@ variable "li" {
   type = list
   default = []
 }
+
+variable "permissions" {
+  type = list(object({
+    meshIdentifier = string
+    username       = string
+    firstName      = string
+    lastName       = string
+    email          = string
+    euid           = string
+    roles          = list(string)
+  }))
+}
