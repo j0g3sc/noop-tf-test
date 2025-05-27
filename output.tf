@@ -22,7 +22,3 @@ output "li" {
 output "setex" {
   value = ["value1", "value2", "value3"]
 }
-
-output "permissions" {
-  value = var.permissions
-}
